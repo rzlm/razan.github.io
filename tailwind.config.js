@@ -26,17 +26,22 @@ module.exports = {
         colors: {
           
             'yellow-light': '#FFFADE',
-        'purple-light': '#DAC3FF',
+           'purple-light': '#DAC3FF',
+           'txt-light':'#eee5f4',
           'purplemid': '#53458E',
           'btn-purple': '#DAC3FF',
           'bg-purple': '#1c1646',
           'purp': '#FCF7FF',
           'green-neon': '#00EDC1',
+          
          },
          fontFamily: {
-          nunito: ['Nunito', 'sans-serif'],
+          figtree: ['Figtree', 'sans-serif'],
           
         },
+        backgroundImage: theme => ({
+          'gradient-text': 'linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0%, rgba(0, 255, 0, 0.8) 50%, rgba(0, 0, 255, 0.8) 100%)',
+        }),
   
       },
     },

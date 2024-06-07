@@ -1,17 +1,17 @@
 import React from 'react'
 
+
 const Navbar = () => {
   return (
-    <div className='flex bg-green-neon font-nunito px-4 '>
-        <div className='p-4 font-bold text-2xl'>
-           <p className='text-bgpurple'>Razan Mohamed</p> 
+    <div className='flex font-nunito px-4 '>
+        <div className='p-4 font-extrabold text-2xl'>
+           <p className='text-white'>Razan Mohamed</p> 
         </div>
-        <div className=' flex p-4 text-2xl  items-center text-bg-purple ml-auto px-8 justify-between'>
-            <p className='px-4'>About me</p>
-            <p className='px-4'>Experience</p>
-            <p className='px-4'>Skills</p>
-            <p className='px-4'>Projects</p>
-            <p className='px-4'>Contact</p>
+        <div className=' font-regular flex p-4 text-lg  items-center text-white ml-auto px-8 justify-between'>
+            <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>About me</p>
+            <p className=' transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Projects</p>
+            <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Experience</p>
+
         </div>
     </div>
   )

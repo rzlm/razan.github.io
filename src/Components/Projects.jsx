@@ -27,10 +27,9 @@ const Projects = () => {
     <div className='padding-sm font-figtree  '>
       
         <div className='flex flex-col text-center items-center'>
-        <span class="absolute mx-auto py-4 flex border w-fit bg-gradient-to-r blur-lg from-purple-400 via-blue-300 to-pink-400 bg-clip-text text-6xl box-content font-extrabold text-transparent text-center select-none">
-My Project  </span>
+       
     <h1
-        class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-purple-400 via-blue-300 to-pink-400 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
+        class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-purple-500 via-pink-300 to-pink-300 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
         My projects
     </h1> <p className='font-nunito  text-md text-center text-yellow-light'>Some things I've worked on in the past. I'm always working on something new :)</p>
         </div>

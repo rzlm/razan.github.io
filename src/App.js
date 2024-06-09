@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Hero, Experience, Projects } from './Components'
+import { Navbar, Hero, Experience, Projects, Education } from './Components'
 const App = () => {
   return (
     <div className='bg-bg-purple'>
@@ -8,6 +8,7 @@ const App = () => {
         <Hero/>
         <Projects/>
         <Experience/>
+        <Education/>
       </div>
     </div>
   )

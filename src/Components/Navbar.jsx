@@ -11,6 +11,7 @@ const Navbar = () => {
             <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>About</p>
             <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Projects</p>
             <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Experience</p>
+            <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Education</p>
 
         </div>
     </div>

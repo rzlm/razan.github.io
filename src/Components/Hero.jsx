@@ -1,7 +1,6 @@
 import React from 'react'
 import person from '../Assets/person.webp'
 import person2 from '../Assets/person2.png'
-import photo from '../Assets/photo.jpeg'
 const Hero = () => {
   return (
     <div className='padding font-figtree '>
@@ -24,8 +23,8 @@ learning · designing · developing
    
     
       </div>
-              <p className='font-bold py-2 text-xl text-txt-light '>Hello :) I am an aspiring software engineer passionate about innovation and dedicated to making a positive impact on people's lives.</p> 
-              <p className='font-bold py-2 text-xl text-txt-light'>Outside of work, I like reading and I enjoy volunteering in the community.</p>            
+              <p className='font-bold py-2 text-xl text-txt-light '>Hello! I am interested in software engineering and data science. I'm passionate about innovation and dedicated to making a positive impact on people's lives.</p> 
+              <p className='font-bold py-2 text-xl text-txt-light'>In my free time, I like reading and I enjoy volunteering in the community.</p>            
               <div className=' py-10 items- justify-start text-yellow-light '>
             <div className='font-regular text-lg flex items-center  justify-center py-4'>
                 
@@ -33,14 +32,12 @@ learning · designing · developing
             <span class="text">LinkedIn</span>
             </button>
             
-            <button class=" transition delay-150 duration-200 mx-2 bg-[#40327a] button flex items-center justify-center bg-transparent text-txt-light w-[8.5em] h-[2.9em] border-[0.1em] border-purple-300 rounded-[11px] transition-all duration-600 ease-in-out  hover:bg-purple-300 hover:text-bg-purple hover:cursor-pointer">
+            <a href="https://github.com/rzlm"  target="_blank">  <button class=" transition delay-150 duration-200 mx-2 bg-[#40327a] button flex items-center justify-center bg-transparent text-txt-light w-[8.5em] h-[2.9em] border-[0.1em] border-purple-300 rounded-[11px] transition-all duration-600 ease-in-out  hover:bg-purple-300 hover:text-bg-purple hover:cursor-pointer">
+            <span class="text">GitHub</span> 
+            </button> </a> 
             
-            <span class="text">GitHub</span>
-            </button>
-            
-             <button class="transition delay-150 duration-200 mx-2 bg-[#40327a] button flex items-center justify-center bg-transparent  text-txt-light w-[8.5em] h-[2.9em] border-[0.1em]  border-purple-300 rounded-[11px] transition-all duration-600 ease-in-out hover:bg-purple-300 hover:text-bg-purple hover:cursor-pointer">
-                <span class="text">Email</span>
-            </button> 
+            <a href="mailto:razan4424@gmail.com"> <span class="text">  <button class="transition delay-150 duration-200 mx-2 bg-[#40327a] button flex items-center justify-center bg-transparent  text-txt-light w-[8.5em] h-[2.9em] border-[0.1em]  border-purple-300 rounded-[11px] transition-all duration-600 ease-in-out hover:bg-purple-300 hover:text-bg-purple hover:cursor-pointer">
+           Email</button></span>  </a>
 
 
             
@@ -49,7 +46,7 @@ learning · designing · developing
             </div>
             <div className='rounded-full items-center justify-center  p-8 '>
                 <img src={person2} className=' m-16 shadow-2xl rounded-lg w-80 h-80 object-cover '/>
-                <p className='text-yellow-light'>hi its meee</p>
+               
             </div>
         </div>
 

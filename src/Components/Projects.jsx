@@ -48,7 +48,7 @@ const Projects = () => {
     <h1
         class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-purple-500 via-pink-300 to-pink-300 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
         My projects
-    </h1> <p className='font-nunito  text-md text-center text-yellow-light'>Some things I have worked on in the past. I have experience creating user friendly, modular and object-oriented programs, using a wide variety of technologies. </p>
+    </h1> <p className='font-nunito  text-md text-center text-yellow-light'>I have experience creating user friendly, modular and object-oriented programs, using a wide variety of technologies. </p>
         </div>
       <div>
       {projects.map((data, index) => (

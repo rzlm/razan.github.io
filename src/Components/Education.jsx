@@ -11,11 +11,11 @@ const Education = () => {
     My Education
 </h1> 
     </div>
-    <div className=' mx-4 font-figtree text-gray-700 text-xl  padding rounded-md bg-slate-100'>
+    <div className=' mx-4 font-figtree text-gray-600 text-xl  padding rounded-md bg-slate-100'>
         <h1 className='p-2'>•  I am in my 3rd year, working towards a BSc in Computer Science at Wilfrid Laurier University (2022-2026)</h1>
         <p className='p-2'>• My concentration is in Big Data Systems.</p>
         <p className='p-2'>• I am on the Dean's Honour Roll for the academic year of 2022, and 2023 (expected). GPA is 11.1/12. I have earned scholarships in recognition of my academic acheivements</p>
-        <p className='p-2'>• Courses in Data visualization, Software engineering, Operating Systems, Algorithm Design and Analysis, Data Structures</p>
+        <p className='p-2'>• Courses: Data visualization, Software engineering, Operating Systems, Algorithm Design and Analysis, Data Structures, Microprocessors</p>
 
     </div>
 

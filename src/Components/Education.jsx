@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className='padding font-figtree  '>
+    <div id='Education' className='padding font-figtree  '>
       
     <div className='flex flex-col text-center items-center'>
    

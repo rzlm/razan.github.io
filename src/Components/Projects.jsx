@@ -41,7 +41,7 @@ const projects = [{
 ];
 const Projects = () => {
   return (
-    <div className='padding-sm font-figtree  '>
+    <div id='Projects' className='padding-sm font-figtree  '>
       
         <div className='flex flex-col text-center items-center'>
        

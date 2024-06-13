@@ -45,13 +45,10 @@ const Tabs = () => {
     <div className="p-6 m-4 bg-gray-50 text-medium text-gray-600 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full">
         <h3 className="text-xl font-bold text-purplemid  mb-2">Centre Assistant | Kumon Math and Reading Centre</h3>
         <p className='text-md font-bold text-purplemid'>Kitchener, ON</p>
-        <p className="mt-2">• As a teaching assistant for discrete structures, I supported a class of over 230 students, ensuring effective learning and engagement.</p>
-        <p>• I graded assignments and midterm exams, ensuring accurate assessment of student performance.</p>
-        <p>• I promptly responded to student inquiries, helping them overcome difficulties in understanding, leading to increased
-        academic achievement.</p>
-        <p>
-• By providing detailed and timely feedback on assignments, I promoted student improvement and deeper learning, resulting in better academic outcomes. </p> 
-<p>• I maintained consistent communication with the Professor and other Teaching Assistants, ensuring smooth coordination, which improved course management and delivery.</p>
+        <p className="mt-2">• Collaborated with the lead instructor and centre assistants to deliver lessons to students, helping them grasp
+fundamental concepts and improve their grades. </p>
+<p>• Utilized strong thinking and analytic skills to efficiently mark over 40+ students’ work during a single session. </p>
+<p>• Maintained a neat and organized learning environment. </p>
     </div>
 </div>
 

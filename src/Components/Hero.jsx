@@ -3,7 +3,7 @@ import person from '../Assets/person.webp'
 import person2 from '../Assets/person2.png'
 const Hero = () => {
   return (
-    <div className='padding font-figtree '>
+    <div id='About' className='padding font-figtree '>
        <div>
         <div className=' '>
             <div className='padding-sm '>

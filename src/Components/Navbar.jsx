@@ -12,6 +12,7 @@ const Navbar = () => {
           <a href='#Projects'> <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Projects</p> </a> 
           <a href='#Experience'>  <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Experience</p> </a> 
           <a href='#Education'>  <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Education</p></a> 
+          <a href='#Contact'>  <p className='transition delay-150 duration-200 hover:bg-[#7060a6] hover: hover:cursor-pointer  p-2 rounded-md mx-2'>Contact Me</p></a> 
 
         </div>
     </div>

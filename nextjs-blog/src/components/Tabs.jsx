@@ -6,10 +6,13 @@ const Tabs = () => {
         
 
 
-<div >
-  {/*   <ul class="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
+<div className='flex flex-row' >
+    <div>
+
+   
+     <ul class="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
         <li>
-            <a href="#" class="inline-flex items-center px-4 py-3 text-white bg-purplemid rounded-lg active w-full dark:bg-purple-300" aria-current="page">
+            <a href="#w" class="inline-flex items-center px-4 py-3 text-white bg-purplemid rounded-lg active w-full dark:bg-purple-300" aria-current="page">
                 Wilfrid Laurier University
             </a>
         </li>
@@ -20,8 +23,11 @@ const Tabs = () => {
         </li> 
        
         
-    </ul>*/}
-      <div class="p-6 m-4 bg-gray-50 text-medium text-gray-600 rounded-lg w-full">
+    </ul>
+   
+    </div>
+    <div className='flex flex-col'>
+      <div id="#w"  className="p-6 m-4 bg-gray-50 text-medium text-gray-600 rounded-lg w-full">
         <h3 class="text-xl font-bold text-purplemid ">Web Developer | Civiconnect</h3>
         <p className='text-md font-bold text-purplemid'>Department of Physics and Computer Science</p>
         <p class="mt-2">• Designed and developed web applications for businesses that meet client requirements.</p>
@@ -53,8 +59,7 @@ const Tabs = () => {
 
     </div>
 </div>
-
-
+</div>
     </div>
   )
 }

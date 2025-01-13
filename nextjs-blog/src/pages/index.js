@@ -5,13 +5,14 @@ import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
-import Skills from '../components/Skills';
+import SkillCard from '../components/SkillCard';
+
 export default function Home() {
   return (
-    <div className='bg-bg-purple text-font-figtree'>
+    <div className='bg-bg-white text-font-figtree'>
       <Navbar />
       <Hero />
-      <Skills />
+      <SkillCard />
       <Projects />
       <Experience />
       <Education />

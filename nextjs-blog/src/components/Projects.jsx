@@ -28,14 +28,14 @@ const Projects = () => {
   return (
     <div id='Projects' className='padding-sm text-font-figtree '>
       
-        <div className='flex flex-col text-center items-center'>
+        <div className='flex flex-col text-center items-center justify-center'>
        
     <h1
         class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-purple-500 via-pink-300 to-pink-300 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
         My projects
     </h1> <p className='font-nunito  text-md text-center text-yellow-light'>I have experience creating user friendly, modular and object-oriented programs, using a wide variety of technologies. </p>
         </div>
-      <div className='flex flex-row'>
+      <div className='flex flex-row justify-center items-center gap-4'>
       {projects.map((data, index) => (
     <div key={index}>
         <Project 
